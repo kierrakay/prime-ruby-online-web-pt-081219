@@ -23,3 +23,13 @@ def sieve(max)
     (p*p).step(max,p) { |m| primes[m] = nil }
   end
 
+  # Finally, return the compacted array.
+  puts "Solved for #{max} in #{counter} steps."
+  primes.compact
+end
+
+def prime?(num)
+  sieve(num).include?(num)
+end
+
+puts prime?(105557)
