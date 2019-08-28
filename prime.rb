@@ -6,3 +6,4 @@ def prime?(x):
       return false
   return true
 end
+end
