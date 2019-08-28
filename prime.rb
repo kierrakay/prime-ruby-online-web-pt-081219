@@ -1,7 +1,7 @@
 require 'benchmark'
 require 'bigdecimal/math'
 
-def sieve(max)
+def prime?(max)
   # Set up an array with all the numbers from 0 to the max
   primes = (0..max).to_a
 
