@@ -23,8 +23,3 @@ def sieve(max)
     (p*p).step(max,p) { |m| primes[m] = nil }
   end
 
-def prime?(num)
-  sieve(num).include?(num)
-end
-
-puts prime?(105557)
