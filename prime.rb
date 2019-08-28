@@ -11,4 +11,6 @@ def prime?(num)
   true
   end
 
-  
+  #normally whats used. 
+  #require 'prime'
+  # Prime.prime?(num) should return true or false
