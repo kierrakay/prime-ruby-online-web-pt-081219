@@ -1,5 +1,5 @@
 require 'benchmark'
-require 'bigdecimal/math'
+
 
 
 def sieve(max)
