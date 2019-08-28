@@ -1,4 +1,4 @@
 require 'prime'
 
-prime_array = Prime.take_while
+prime_array = Prime.take_while { |p| 
   
